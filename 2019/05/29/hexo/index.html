@@ -6,15 +6,20 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://blog.tuo0.com">
-  <title>Nick的博客</title>
+  <title>使用Hexo搭建静态博客 | Nick的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Nick的博客">
-<meta property="og:url" content="http://blog.tuo0.com/index.html">
+  <meta name="description" content="第一次使用 hexo 搭建静态博客，写个简单日志，记录一下过程 第一步：安装nodejs12$ sudo apt-get install nodejs$ sudo apt-get install npm 第二步：安装Hexo1$ npm install -g hexo-cli 第三步：创建项目，配置Git12$ hexo init Hexo$ cd Hexo 安装Git自动部署插件1$ npm i">
+<meta name="keywords" content="随笔">
+<meta property="og:type" content="article">
+<meta property="og:title" content="使用Hexo搭建静态博客">
+<meta property="og:url" content="http://blog.tuo0.com/2019/05/29/hexo/index.html">
 <meta property="og:site_name" content="Nick的博客">
+<meta property="og:description" content="第一次使用 hexo 搭建静态博客，写个简单日志，记录一下过程 第一步：安装nodejs12$ sudo apt-get install nodejs$ sudo apt-get install npm 第二步：安装Hexo1$ npm install -g hexo-cli 第三步：创建项目，配置Git12$ hexo init Hexo$ cd Hexo 安装Git自动部署插件1$ npm i">
 <meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2019-05-29T14:24:22.802Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Nick的博客">
+<meta name="twitter:title" content="使用Hexo搭建静态博客">
+<meta name="twitter:description" content="第一次使用 hexo 搭建静态博客，写个简单日志，记录一下过程 第一步：安装nodejs12$ sudo apt-get install nodejs$ sudo apt-get install npm 第二步：安装Hexo1$ npm install -g hexo-cli 第三步：创建项目，配置Git12$ hexo init Hexo$ cd Hexo 安装Git自动部署插件1$ npm i">
   
     <link rel="alternative" href="/atom.xml" title="Nick的博客" type="application/atom+xml">
   
@@ -174,16 +179,14 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-    <article id="post-hexo" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+            <article id="post-hexo" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/05/29/hexo/">使用Hexo搭建静态博客</a>
+    <h1 class="article-title" itemprop="name">
+      使用Hexo搭建静态博客
     </h1>
   
 
@@ -235,16 +238,65 @@
       
 
       
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/05/29/hexo/">展开全文 >></a>
-        </p>
-      
 
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://blog.tuo0.com/2019/05/29/hexo/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
       
       <div class="clearfix"></div>
     </div>
   </div>
 </article>
+
+  
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -264,8 +316,14 @@
 
 
 
+  
+  
+  
 
   
+
+  
+
   
 
 
@@ -288,8 +346,8 @@
     <script>
 	var yiliaConfig = {
 		mathjax: false,
-		isHome: true,
-		isPost: false,
+		isHome: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
